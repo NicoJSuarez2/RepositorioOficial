@@ -26,4 +26,4 @@ _TODOS LOS CAMBIOS HECHOS SOBRE LA RAMA MAIN NO SERAN ACEPTADOS_
 
 # TAREA
 
-Su tarea es crear su rama Feature/creacion-pbi-xxxxxx y que suban el reporte en la carpeta DESARROLLO una vez subido tienen que solicitar el PR (Pull Request) para que quede en la rama fuente
+Su tarea es crear su rama Feature/creacion-pbi-xxxxxx y que suban un reporte en la carpeta DESARROLLO una vez subido tienen que solicitar el PR (Pull Request) para que quede en la rama fuente
