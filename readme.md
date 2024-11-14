@@ -38,7 +38,7 @@ ssh-keygen -t rsa-sha2-256
     Los siguientes ya la enviaron:
     @Camipre
     @juan-del-mar
-    @lalvarezo96 :check:
+    @lalvarezo96  🥇
     @Lenin-Per
     @Lycrisiz
     @Milesara2012
