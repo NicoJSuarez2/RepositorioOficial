@@ -9,8 +9,14 @@ En esta semana tendremos 2 actividades!
 a.1 Para hacer esto tienes que seguir trabajando en tu rama creada(Feature/xxxxx )
 a.2 Compiar los 3 elementos del archivo que son: - pbi-xxx.semanticmodel - pbi-xxx.Report - pbi-xxxx.pbip
 a.3 Pegar en la carpeta TEST
-a.4 hacer los comandos git pull origin main para descargar los cambios ya hechos y que tu rama este al dia
-a.5 Hacer el proceso de commit: - Git add . - Git commit -m "Titulo del commit" -m "Descripcioooooooooooon del commit" - Git push
+a.4 hacer los comandos `git pull origin main` para descargar los cambios ya hechos y que tu rama este al dia
+a.5 Hacer el proceso de commit:
+
+```
+Git add .
+Git commit -m "Titulo del commit" -m "Descripcioooooooooooon del commit"
+Git push
+```
 
 # Actividad 2 Repositorio Azure
 
