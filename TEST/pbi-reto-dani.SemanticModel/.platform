@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "pbi-reto-dani"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c7786426-220b-464f-a9b1-9c4d8230cd43"
+  }
+}
