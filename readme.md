@@ -45,5 +45,5 @@ Los siguientes ya la enviaron:
     @juan-del-mar
     @lalvarezo96  🥇
     @Lenin-Per
-    @Lycrisiz
+    @Lycrisiz 🥈
     @Milesara2012
