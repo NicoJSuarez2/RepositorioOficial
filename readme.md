@@ -44,6 +44,6 @@ Los siguientes ya la enviaron:
     @Camipre
     @juan-del-mar
     @lalvarezo96  🥇
-    @Lenin-Per
+    @Lenin-Per 🥉
     @Lycrisiz 🥈
     @Milesara2012
