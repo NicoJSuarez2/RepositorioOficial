@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "pbi-dani-arreglado"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bc1e1043-25be-40c7-8143-c9209bbe074f"
+  }
+}

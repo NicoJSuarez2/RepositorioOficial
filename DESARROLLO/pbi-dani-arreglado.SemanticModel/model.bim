@@ -1,0 +1,237 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1004.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "es-ES",
+    "cultures": [
+      {
+        "name": "es-ES",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "name": "TablaCalendario",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "6a491431a269448d91b3e7cfa909de56"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "ef098020-17f9-4b72-9967-48ba75e6f7bf",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "afccb382-7b09-4ee5-9054-b48d7a866f52",
+            "sourceColumn": "[Año]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "83502dc5-8f24-46e4-b02e-5d575fb9ef58",
+            "sourceColumn": "[Mes]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "NombreMes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "0a9854b4-8fe9-41b9-8c9e-bb7feb100fb8",
+            "sourceColumn": "[NombreMes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Trimestre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "7a46a91f-247a-4e1a-83e3-9dcb860e1e1e",
+            "sourceColumn": "[Trimestre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Semana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "2aa78497-ceb8-4dd4-bd11-a08551fcc5b5",
+            "sourceColumn": "[Semana]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Dia",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "515b3a6b-af17-4d29-ae92-e345787a334f",
+            "sourceColumn": "[Dia]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "DiaNombre",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "02a7576e-b3c3-402a-a8b5-1ab7ff3be7c6",
+            "sourceColumn": "[DiaNombre]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Año-Mes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "52ba3e61-2341-465d-ac24-2cb5764589de",
+            "sourceColumn": "[Año-Mes]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "EsFinDeSemana",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "boolean",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "26ef53f3-ba3c-442f-a609-a2c40dca1aec",
+            "sourceColumn": "[EsFinDeSemana]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "8e0fbbb0-d0e2-4097-969d-08c9e57efca6",
+        "partitions": [
+          {
+            "name": "TablaCalendario",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "",
+                "ADDCOLUMNS(",
+                "    CALENDAR(DATE(2020, 1, 1), DATE(2030, 12, 31)),",
+                "    \"Año\", YEAR([Date]),",
+                "    \"Mes\", MONTH([Date]),",
+                "    \"NombreMes\", FORMAT([Date], \"MMMM\"),",
+                "    \"Trimestre\", \"Q\" & FORMAT([Date], \"Q\"),",
+                "    \"Semana\", WEEKNUM([Date]),",
+                "    \"Dia\", DAY([Date]),",
+                "    \"DiaNombre\", FORMAT([Date], \"dddd\"),",
+                "    \"Año-Mes\", FORMAT([Date], \"YYYY-MM\"),",
+                "    \"EsFinDeSemana\", IF(WEEKDAY([Date], 2) > 5, TRUE(), FALSE())",
+                ")",
+                ""
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
